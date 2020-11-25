@@ -1,0 +1,10 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "build SFND_Kalman_Filter",
+            "type": "shell",
+            "command": "cd \"Debug\" && cmake -DCMAKE_BUILD_TYPE=Debug .. && make"
+        }
+    ]
+}
