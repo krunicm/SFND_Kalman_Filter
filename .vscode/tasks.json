@@ -5,6 +5,11 @@
             "label": "build SFND_Kalman_Filter",
             "type": "shell",
             "command": "cd \"Debug\" && cmake -DCMAKE_BUILD_TYPE=Debug .. && make"
+        },
+        {
+            "label": "build SFND_Kalman_Filter_Laser",
+            "type": "shell",
+            "command": "cd \"Laser/Debug\" && cmake -DCMAKE_BUILD_TYPE=Debug .. && make"
         }
     ]
 }

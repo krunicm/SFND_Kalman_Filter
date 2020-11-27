@@ -22,6 +22,25 @@
                     "ignoreFailures": true
                 }
             ]
+        },
+        {
+            "name": "(gdb) Launch SFND_Kalman_Filter_Laser",
+            "type": "cppdbg",
+            "request": "launch",
+            "program": "${workspaceFolder}/Laser/Debug/kalman_laser",
+            "args": [],
+            "stopAtEntry": false,
+            "cwd": "${workspaceFolder}/Laser",
+            "preLaunchTask": "build SFND_Kalman_Filter_Laser",
+            "externalConsole": false,
+            "MIMode": "gdb",
+            "setupCommands": [
+                {
+                    "description": "Enable pretty-printing for gdb",
+                    "text": "-enable-pretty-printing",
+                    "ignoreFailures": true
+                }
+            ]
         }
     ]
 }
