@@ -58,7 +58,8 @@
         "cfenv": "cpp",
         "cinttypes": "cpp",
         "typeinfo": "cpp",
-        "dense": "c"
+        "dense": "c",
+        "core": "cpp"
     },
     "C_Cpp.errorSquiggles": "Disabled"
 }

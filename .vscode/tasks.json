@@ -10,6 +10,16 @@
             "label": "build SFND_Kalman_Filter_Laser",
             "type": "shell",
             "command": "cd \"Laser/Debug\" && cmake -DCMAKE_BUILD_TYPE=Debug .. && make"
+        },
+        {
+            "label": "build Jacobian_matrix",
+            "type": "shell",
+            "command": "cd \"Jacobian/Debug\" && cmake -DCMAKE_BUILD_TYPE=Debug .. && make"
+        },
+        {
+            "label": "build KF_Performance",
+            "type": "shell",
+            "command": "cd \"KF_Performance/Debug\" && cmake -DCMAKE_BUILD_TYPE=Debug .. && make"
         }
     ]
 }

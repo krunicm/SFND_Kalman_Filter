@@ -41,6 +41,44 @@
                     "ignoreFailures": true
                 }
             ]
+        },
+        {
+            "name": "(gdb) Launch Jacobian_matrix",
+            "type": "cppdbg",
+            "request": "launch",
+            "program": "${workspaceFolder}/Jacobian/Debug/jacobian_matrix",
+            "args": [],
+            "stopAtEntry": false,
+            "cwd": "${workspaceFolder}/Jacobian",
+            "preLaunchTask": "build Jacobian_matrix",
+            "externalConsole": false,
+            "MIMode": "gdb",
+            "setupCommands": [
+                {
+                    "description": "Enable pretty-printing for gdb",
+                    "text": "-enable-pretty-printing",
+                    "ignoreFailures": true
+                }
+            ]
+        },
+        {
+            "name": "(gdb) Launch KF_Performance",
+            "type": "cppdbg",
+            "request": "launch",
+            "program": "${workspaceFolder}/KF_Performance/Debug/kf_performance",
+            "args": [],
+            "stopAtEntry": false,
+            "cwd": "${workspaceFolder}/KF_Performance",
+            "preLaunchTask": "build KF_Performance",
+            "externalConsole": false,
+            "MIMode": "gdb",
+            "setupCommands": [
+                {
+                    "description": "Enable pretty-printing for gdb",
+                    "text": "-enable-pretty-printing",
+                    "ignoreFailures": true
+                }
+            ]
         }
     ]
 }
