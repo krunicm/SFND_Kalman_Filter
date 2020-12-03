@@ -20,6 +20,11 @@
             "label": "build KF_Performance",
             "type": "shell",
             "command": "cd \"KF_Performance/Debug\" && cmake -DCMAKE_BUILD_TYPE=Debug .. && make"
+        },
+        {
+            "label": "build UKF_Sigma_Points",
+            "type": "shell",
+            "command": "cd \"UKF/Sigma_Points/Debug\" && cmake -DCMAKE_BUILD_TYPE=Debug .. && make"
         }
     ]
 }

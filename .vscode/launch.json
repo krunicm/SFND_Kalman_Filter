@@ -79,6 +79,25 @@
                     "ignoreFailures": true
                 }
             ]
+        },
+        {
+            "name": "(gdb) Launch UKF_Sigma_Points",
+            "type": "cppdbg",
+            "request": "launch",
+            "program": "${workspaceFolder}/UKF/Sigma_Points/Debug/ukf_sigma_points",
+            "args": [],
+            "stopAtEntry": false,
+            "cwd": "${workspaceFolder}/UKF/Sigma_Points",
+            "preLaunchTask": "build UKF_Sigma_Points",
+            "externalConsole": false,
+            "MIMode": "gdb",
+            "setupCommands": [
+                {
+                    "description": "Enable pretty-printing for gdb",
+                    "text": "-enable-pretty-printing",
+                    "ignoreFailures": true
+                }
+            ]
         }
     ]
 }
