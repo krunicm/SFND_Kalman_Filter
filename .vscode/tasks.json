@@ -35,6 +35,11 @@
             "label": "build Sigma_Points_Prediction",
             "type": "shell",
             "command": "cd \"Sigma_Points_Prediction/Debug\" && cmake -DCMAKE_BUILD_TYPE=Debug .. && make"
+        },
+        {
+            "label": "build Predicted_Mean_and_Covariance",
+            "type": "shell",
+            "command": "cd \"Predicted_Mean_and_Covariance/Debug\" && cmake -DCMAKE_BUILD_TYPE=Debug .. && make"
         }
     ]
 }

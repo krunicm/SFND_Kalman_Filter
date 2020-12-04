@@ -136,6 +136,25 @@
                     "ignoreFailures": true
                 }
             ]
+        },
+        {
+            "name": "(gdb) Launch Predicted_Mean_and_Covariance",
+            "type": "cppdbg",
+            "request": "launch",
+            "program": "${workspaceFolder}/Predicted_Mean_and_Covariance/Debug/predicted_mean_and_covariance",
+            "args": [],
+            "stopAtEntry": false,
+            "cwd": "${workspaceFolder}/Predicted_Mean_and_Covariance",
+            "preLaunchTask": "build Predicted_Mean_and_Covariance",
+            "externalConsole": false,
+            "MIMode": "gdb",
+            "setupCommands": [
+                {
+                    "description": "Enable pretty-printing for gdb",
+                    "text": "-enable-pretty-printing",
+                    "ignoreFailures": true
+                }
+            ]
         }
     ]
 }
