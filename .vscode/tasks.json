@@ -30,6 +30,11 @@
             "label": "build Augmentation",
             "type": "shell",
             "command": "cd \"Augmentation/Debug\" && cmake -DCMAKE_BUILD_TYPE=Debug .. && make"
+        },
+        {
+            "label": "build Sigma_Points_Prediction",
+            "type": "shell",
+            "command": "cd \"Sigma_Points_Prediction/Debug\" && cmake -DCMAKE_BUILD_TYPE=Debug .. && make"
         }
     ]
 }
