@@ -98,6 +98,25 @@
                     "ignoreFailures": true
                 }
             ]
+        },
+        {
+            "name": "(gdb) Launch Augmentation",
+            "type": "cppdbg",
+            "request": "launch",
+            "program": "${workspaceFolder}/Augmentation/Debug/augmentation",
+            "args": [],
+            "stopAtEntry": false,
+            "cwd": "${workspaceFolder}/Augmentation",
+            "preLaunchTask": "build Augmentation",
+            "externalConsole": false,
+            "MIMode": "gdb",
+            "setupCommands": [
+                {
+                    "description": "Enable pretty-printing for gdb",
+                    "text": "-enable-pretty-printing",
+                    "ignoreFailures": true
+                }
+            ]
         }
     ]
 }

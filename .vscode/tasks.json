@@ -25,6 +25,11 @@
             "label": "build UKF_Sigma_Points",
             "type": "shell",
             "command": "cd \"UKF/Sigma_Points/Debug\" && cmake -DCMAKE_BUILD_TYPE=Debug .. && make"
+        },
+        {
+            "label": "build Augmentation",
+            "type": "shell",
+            "command": "cd \"Augmentation/Debug\" && cmake -DCMAKE_BUILD_TYPE=Debug .. && make"
         }
     ]
 }
