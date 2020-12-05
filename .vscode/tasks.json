@@ -40,6 +40,11 @@
             "label": "build Predicted_Mean_and_Covariance",
             "type": "shell",
             "command": "cd \"Predicted_Mean_and_Covariance/Debug\" && cmake -DCMAKE_BUILD_TYPE=Debug .. && make"
+        },
+        {
+            "label": "build Predicted_Radar_Measurment",
+            "type": "shell",
+            "command": "cd \"Predicted_Radar_Measurment/Debug\" && cmake -DCMAKE_BUILD_TYPE=Debug .. && make"
         }
     ]
 }

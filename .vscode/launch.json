@@ -155,6 +155,25 @@
                     "ignoreFailures": true
                 }
             ]
+        },
+        {
+            "name": "(gdb) Launch Predicted_Radar_Measurment",
+            "type": "cppdbg",
+            "request": "launch",
+            "program": "${workspaceFolder}/Predicted_Radar_Measurment/Debug/Predicted_Radar_Measurment",
+            "args": [],
+            "stopAtEntry": false,
+            "cwd": "${workspaceFolder}/Predicted_Radar_Measurment",
+            "preLaunchTask": "build Predicted_Radar_Measurment",
+            "externalConsole": false,
+            "MIMode": "gdb",
+            "setupCommands": [
+                {
+                    "description": "Enable pretty-printing for gdb",
+                    "text": "-enable-pretty-printing",
+                    "ignoreFailures": true
+                }
+            ]
         }
     ]
 }
