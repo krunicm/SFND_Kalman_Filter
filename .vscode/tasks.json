@@ -45,6 +45,11 @@
             "label": "build Predicted_Radar_Measurment",
             "type": "shell",
             "command": "cd \"Predicted_Radar_Measurment/Debug\" && cmake -DCMAKE_BUILD_TYPE=Debug .. && make"
+        },
+        {
+            "label": "build UKF_Update",
+            "type": "shell",
+            "command": "cd \"UKF_Update/Debug\" && cmake -DCMAKE_BUILD_TYPE=Debug .. && make"
         }
     ]
 }
